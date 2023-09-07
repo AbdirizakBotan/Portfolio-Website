@@ -1,0 +1,83 @@
+.header{
+    border-radius: 23px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2px 40px;
+    background-color:coral;
+}
+span{
+    color: red;
+    font-size: 40px;
+}
+.header ul{
+list-style: none;
+display: flex;
+}
+.header ul li{
+    padding: 10px 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header h1{
+    font-size: 40px;
+}
+
+
+
+.main{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+}
+.main img{
+    margin-top: 30px;
+    border: 3px greenyellow solid;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.main-title button{
+    margin: 2%;
+    color: white;
+    padding: 12px;
+    border-radius: 44px;
+    font-size: 42;
+    background-color:coral;
+}
+.main-title h3{
+   margin-top: -30px;
+   margin-left: 5%;
+}
+.main-title p{
+    margin:5% ;
+    font-size: 20px;
+}
+.main-title h1{
+    font-size: 40px;
+    color: brown;
+    margin: 5%;
+}
+ul li:hover{
+    background-color:red ;
+    border-radius: 23px;
+}
+.main-title button:hover{
+    background-color: red;
+    font-weight: bold;
+}
+.box1{
+    background-color: coral;
+    padding:25px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 23px;
+
+}
+.box-parent{
+    display: flex;
+    justify-content:space-between;
+}
+h1{
+    padding-top: 5px;
+}
